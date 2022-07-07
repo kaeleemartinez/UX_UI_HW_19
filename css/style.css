@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding:0;
+    background-color: antiquewhite;
+}
+header {
+    background-color: #e2725b ;
+    align-items: center;
+    padding: 30px;
+
+}
+
+header ul { 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    float: right;
+    color: antiquewhite
+    
+
+}
+
+header li {
+    display: inline-block;
+    padding: 0px 5px ;
+}
+
+header p {
+    display: inline-block;
+}
+button {
+    padding: 15px;
+    background-color: #373738;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+.heroImg{
+    background-color: antiquewhite;
+    padding: 100px 15px;
+}
+#image{
+    width: 40%;
+}
+.content {
+    margin: 0 auto;
+    padding: 50px;
+    background-color: antiquewhite;
+    text-align: left;
+  }
+h2 {
+    font-size:larger;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+.logo {
+    cursor: pointer;
+    width: 10px;
+    height: auto;
+
+}
+
+/* My UX Skills Section */
+.flexContainer {
+    display: flex;
+    padding: 40px 30px;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+  }
+  .uxskillspic{
+    width: 100%;
+  }
+  
+  /* My Work Section */
+  .myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: antiquewhite;
+  }
+  .workGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 350px 350px 350px;
+    grid-template-areas:
+    "img1 content1"
+    "img2 content2"
+    "img3 content3"
+    ;
+  }
+  .myworkpic{
+    width: 100%;
+  }
+  .workGrid img {
+    width: 50%;
+    max-width: 100px;
+    margin: 0 auto;
+    display: block;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img1, .img2, .img3, .content1, .content2, .content3 {
+    padding: 80px;
+  }
+  .content1 {
+    grid-area: content1;
+  }
+  .content2 {
+    grid-area: content2;
+  }
+  .content3 {
+    grid-area: content3;
+  }
+footer{
+    background-color: #e2725b ;
+    align-items: center;
+    padding: 30px;
+}
+footer ul {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    list-style: none;
+    padding-left: 5px;
+    color: antiquewhite
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
